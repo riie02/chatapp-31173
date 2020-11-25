@@ -1,0 +1,20 @@
+<div class="roommain">
+  <h3 class="logonew"> Chat<span class="foo">R</span>oom</h3>
+  <div class="backnew">
+    <%= link_to "Back", messages_path, class: :backnew_btn%>
+  </div>
+  <div class="formnew">
+    <%= form_with model: @message do |f| %>
+      <%= f.text_field :text %>
+      <%= f.submit '送信' %>
+    <% end %>
+  </div>
+  <div id='messages', class="messages">
+    <div class="text_message">
+      <% @messages.reverse_each do |message| %>
+        <p><span>【</span><%= message.user.name %><span>】</span><%= message.updated_at %></p>
+        <p class="text"><%= message.text %></p>
+      <% end %>
+    </div>
+  </div>
+</div>

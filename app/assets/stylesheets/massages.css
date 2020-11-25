@@ -1,0 +1,103 @@
+/* トップページ */
+
+.main {
+  width: 100vw;
+  height: 500px;
+  text-align: center;
+  background-color: cornsilk;
+}
+
+.logo {
+  font-size: 50px;
+  color: gray;
+  padding-top: 80px;
+}
+.devise {
+  padding-top: 10px;
+}
+
+.nav_btn {
+  padding: 0.4em 1.6em;
+  color: #87CEFA;
+  text-decoration: none;
+  user-select: none;
+  border: 1px #87CEFA solid;
+  border-radius: 3px;
+  transition: 0.4s ease;
+}
+
+.current_username {
+  color: grey;
+  padding-bottom: 15px;
+}
+
+
+.chatroom1 {
+  padding-top: 70px;
+}
+
+.chatroom_btn {
+  text-decoration: none;
+  border: 6px double gray;
+  padding: 0.4em 1.6em;
+  transition: 0.4s ease;
+  font-size: 25px;
+  color: grey;
+}
+.messages {
+  font-size: 15px;
+}
+
+.text {
+  font-size: 20px;
+}
+
+/* Chat Room (new) */
+
+.roommain {
+  background-color: cornsilk;
+}
+
+.logonew {
+  font-size: 35px;
+  padding-top: 45px;
+  padding-left: 50px;
+  color: gray;
+}
+
+.logonew:first-letter, .foo {
+  font-size: 1.6em;
+  color: #87CEFA;
+}
+
+.formnew {
+  padding-left: 40px;
+  padding-top: 17px;
+  padding-bottom: 20px;
+}
+
+.backnew {
+  padding-left: 40px;
+}
+
+.messages {
+  padding-left: 40px;
+}
+
+
+.devisenew {
+  height: 400px;
+  background-color: cornsilk;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 70px;
+}
+
+.backnew_btn {
+  text-decoration: none;
+  border: 2px dashed gray;
+  padding: 0.2em 1.2em;
+  transition: 0.4s ease;
+  font-size: 13px;
+  color: grey;
+}
