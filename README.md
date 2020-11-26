@@ -7,12 +7,12 @@ chatapp-31173
 
 
 # URL
-
+https://chatapp-31173.herokuapp.com/
 
 
 # テスト用アカウント
-ユーザー1 name: test1さん, Email: test1@co.jp,  Password: test01
-ユーザー2 name: test2さん, Email: test2@co.jp,  Password: test02
+ユーザー1 name: 山田太郎, Email: test2@co.jp,  Password: test02
+ユーザー2 name: 佐藤花子, Email: test3@co.jp,  Password: test03
 
 
 # 利用方法
@@ -27,12 +27,16 @@ chatapp-31173
 また、シェアーハウスの基本のルールが分からない時に固定の掲示板でいつでも確認できる。
 
 # 洗い出した要件
-ユーザー管理機能: アプリに登録し、ログインしているユーザーのみがアプリを使用できる。
-リアルタイムチャット機能: 
+ユーザー管理機能
+リアルタイムチャット機能
 固定掲示板の機能
 
 # 実装した機能についてのGIFと説明
 
+１ログインしていないユーザーがChatRoomに入ろうとするとログイン画面に遷移する。
+  https://gyazo.com/0e88b4a466cb7b03151f9995e10ee181
+
+2
 # 実装予定の機能
 
 # データベース設計
