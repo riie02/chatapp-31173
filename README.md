@@ -13,12 +13,15 @@ chatapp-31173
 
 # テスト用アカウント
 > ユーザー1 name: 山田太郎, Email: test2@co.jp,  Password: test02
+
 > ユーザー2 name: 佐藤花子, Email: test3@co.jp,  Password: test03
 
 
 # 利用方法
 > ユーザー同士でチャット行い、情報の共有を行うことができる。
+
 > ユーザーは固定の掲示板を確認して、シェアーハウスの基本ルールを確認することができる。
+
 > 固定の掲示板はユーザーであれば誰でも編集を行うことができる。
 
 
@@ -27,7 +30,9 @@ chatapp-31173
 
 # 洗い出した要件
 > ユーザー管理機能
+
 > リアルタイムチャット機能
+
 > 固定掲示板の機能
 
 
@@ -94,12 +99,13 @@ chatapp-31173
 
 
 # ローカルでの動作方法
-% https://github.com/riie02/chatapp-31173.git
-% bundle install
-% yarn install
-% rails db:create
-% rails db:migrate
-% rails s
-% http://localhost:3000/
+
+1. % https://github.com/riie02/chatapp-31173.git
+2. % bundle install
+3. % yarn install
+4. % rails db:create
+5. % rails db:migrate
+6. % rails s
+7. % http://localhost:3000/
 
 
