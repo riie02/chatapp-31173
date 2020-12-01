@@ -58,3 +58,12 @@ h1 {
   font-size: 17px;
   color: grey;
 }
+
+.container {
+  display:block;
+}
+
+.contents {
+  background-color: cornsilk;
+  padding-bottom: 50px;
+}
