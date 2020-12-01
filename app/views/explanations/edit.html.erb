@@ -1,0 +1,11 @@
+<div class="contents row">
+  <div class="container">
+    <h3>編集</h3>
+    <%= link_to '戻る', explanation_path(@explanation.id) %>
+    <%= form_with(model: @explanation, local: true) do |form| %>
+      <%= form.text_field :title, placeholder: "title" %>
+      <%= form.text_area :text, placeholder: "text" %>
+      <%= form.submit "SEND" %>
+    <% end %>
+  </div>
+</div>

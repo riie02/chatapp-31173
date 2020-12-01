@@ -1,0 +1,60 @@
+.contents-row {
+  height: 100vh;
+  background-color: cornsilk;
+}
+
+.more {
+  padding-left: 60px;
+  padding-top: 50px;
+}
+
+.content-title {
+  padding-left: 60px;
+  padding-top: 20px;
+}
+
+.content-text {
+  padding-left: 90px;
+}
+
+.main {
+  width: 100vw;
+  height: 500px;
+  text-align: center;
+  background-color: cornsilk;
+}
+
+h1 {
+  font-size: 45px;
+  color: gray;
+  padding-top: 80px;
+}
+
+.backnew {
+  padding-right: 350px;
+}
+
+.explanations {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 45px;
+  width: 400px;
+  height: 200px;
+}
+
+.text_explanation {
+  padding-top: 10px;
+}
+
+.show-btn {
+  text-decoration: none;
+  transition: 0.4s ease;
+  font-size: 15px;
+}
+
+.c {
+  text-decoration: none;
+  font-size: 17px;
+  color: grey;
+}

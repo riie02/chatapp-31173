@@ -1,0 +1,17 @@
+<div class="main">
+  <h1>Shear Rule</h1>
+  <div class="explanation">
+    <%#= link_to "投稿", new_explanation_path, class: :explanation%>
+  </div>
+  <div class="backnew">
+    <%= link_to "Back", messages_path, class: :backnew_btn%>
+  </div>
+    <div id='explanations', class="explanations">
+      <div class="text_explanation">
+        <% @explanations.each do |explanation| %>
+          <p><span>【</span><%= explanation.title %><span>】</span>
+          <p class="show-btn"><%= link_to '詳細', explanation_path(explanation.id), class: :"c", method: :get %></p>
+        <% end %>
+      </div>
+    </div>
+</div>

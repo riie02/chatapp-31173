@@ -1,0 +1,13 @@
+<div class="contents-row">
+  <div class="more">
+    <%= link_to '編集', edit_explanation_path(@explanation.id), method: :get %>
+    <%#= link_to '削除', "/explanations/#{@explanation.id}", method: :delete %>
+    <%= link_to 'title一覧', explanations_path(@explanation.id) %>
+  </div>
+  <div class="content-title">
+    <p><span>【</span><%= @explanation.title %><span>】</span></p>
+  </div>
+  <div class="content-text">
+    <p class="text"><%=simple_format (@explanation.text) %></p>
+  </div>
+</div>
