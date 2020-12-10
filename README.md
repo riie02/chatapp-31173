@@ -102,13 +102,13 @@ chatapp-31173
 
 # ローカルでの動作方法
 
-1. % https://github.com/riie02/chatapp-31173.git
-2. % bundle install
-3. % yarn install
-4. % rails db:create
-5. % rails db:migrate
-6. % rails s
-7. % http://localhost:3000/
-
-
-
+```
+ % git clone https://github.com/riie02/chatapp-31173.git
+ % cd chatapp-31173
+ % bundle install
+ % yarn install
+ % rails db:create
+ % rails db:migrate
+ % rails s
+ % http://localhost:3000/
+```
