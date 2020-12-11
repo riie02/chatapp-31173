@@ -1,13 +1,13 @@
 <div class="main">
   <h1>Shear Rule</h1>
   <div class="explanation">
-  </div>
-  <div id='explanations', class="explanations">
-    <div class="text_explanation">
-      <% @explanations.each do |explanation| %>
-        <p><span>【</span><%= explanation.title %><span>】</span>
-        <p class="show-btn"><%= link_to '詳細', explanation_path(explanation.id), class: :"c", method: :get %></p>
-      <% end %>
+    <div id='explanations', class="explanations">
+      <div class="text_explanation">
+        <% @explanations.each do |explanation| %>
+          <p><span>【</span><%= explanation.title %><span>】</span>
+          <p class="show-btn"><%= link_to '詳細', explanation_path(explanation.id), class: :"c", method: :get %></p>
+        <% end %>
+      </div>
     </div>
   </div>
   <div class="backnew">
